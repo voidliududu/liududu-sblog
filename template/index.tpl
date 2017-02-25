@@ -2,6 +2,7 @@
 <head>
 	<title>blog</title>
 	<meta charset="utf-8"></head>
+  <link rel="stylesheet" href="../Css/three-col-style.css" type="text/css" />
 <body>
 
 <div id="body">
