@@ -1,8 +1,19 @@
 <html>
-  <head>
-    <title></title>
-    <meta http-equiv="content-type" content="txt/html" charset="utf-8" />
-    <link src="" rel=""/>
-    <script src=""></script>
-  </head>
+<head>
+	<title>blog</title>
+	<meta charset="utf-8"></head>
+<body>
+
+<div id="body">
+	<div class="nav-bar"></div>
+	<div class="content clear">
+		<div class="header"></div>
+		<div class="left"></div>
+		<div class="middle"></div>
+		<div class="right"></div>
+	</div>
+	<div class="footer"></div>
+</div>
+
+</body>
 </html>
