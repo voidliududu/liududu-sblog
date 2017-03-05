@@ -1,0 +1,151 @@
+/*to clear the influence of float*/
+.clear {
+    zoom: 1;
+}
+.clear:after {
+    content: "";
+    clear: both;
+    width: 100%;
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+/*the global attr */
+.body {
+    width: 100%;
+}
+/*nav begin*/
+.nav-bar {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,0.6);
+    margin: 5px 3px;
+    border-radius: 5px;
+}
+/*nav end*/
+/*content begin*/
+.content {
+    width: 100%;
+}
+/*left begin*/
+.left {
+    width: 28%;
+    background-color: #4e4a4a;
+    float: left;
+    height: 2000px;
+    margin: 0 0.3%;
+    border-radius: 5px;
+}
+.head-left{
+  background-color: #dd4814;
+  width:100%;
+  padding: 5px 0;
+  border-radius: 5px;
+
+}
+.left-title{
+  display:block;
+  color:white;
+  font-weight: bold;
+  font-size:20px;
+  width:110px;
+  margin: auto;
+  padding: 5px 0;
+}
+.left-title:hover{
+  background-color: #ee5938;
+  border-radius: 2px;
+}
+.img-box{
+  width:80%;
+  margin:auto;
+}
+.img-head{
+  display:block;
+  width:100px;
+  height:100px;
+  margin:auto;
+  margin-top:5px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+.search-box{
+  font-size: 20px;
+  width:100%;
+  padding:4px 20px;
+  padding-top:10px;
+  border-radius: 20px;
+}
+.menu{
+  width:100%;
+}
+.item{
+  border-bottom-style: solid;
+  border-color: #666666;
+  border-bottom-width: 1px;
+}
+.item:hover{
+  background-color: #444444;
+}
+.item-1{
+  width:10%;
+}
+.item-2{
+  width:20%;
+  padding-right: 10px;
+}
+.icon{
+  width:20px;
+  float:right;
+}
+.item-3{
+  width:70%;
+  padding: 10px 0;
+  padding-left: 5px;
+  font-size: 25px;
+  color:white;
+}
+/*left end*/
+
+/*middle begin*/
+.middle {
+    width: 60%;
+    height: 2000px;
+    float: left;
+    background-color: #555555;
+    border-radius: 5px;
+
+}
+.middle-content{
+  width:90%;
+  margin:10px auto;
+}
+.msgbox{
+  width:90%;
+  height:100px;
+  border-radius: 5px;
+  padding:5%;
+  background-color: #ddeeff;
+}
+/*middle end*/
+
+/*right begin*/
+.right {
+    width: 10%;
+    float: right;
+    background-color: rgba(56,56,254,0.7);
+    height: 2000px;
+    margin-right: 0.7%;
+    border-radius: 5px;
+}
+/*right end*/
+/*content end*/
+
+/*footer begin*/
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #555555;
+    margin: 5px 5px;
+    border-radius: 5px;
+}
